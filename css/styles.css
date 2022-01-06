@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    font-size: 1em;
+    background-color: #EEEEEE;
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border-radius: .5em;
+}
+
+header {
+    padding: 2em;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+img {
+    width: 100%;
+    max-width: 1024px;
+}
+
+figcaption {
+    font-size: .9em;
+    margin-top: 1em;
+    line-height: 1.6;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 3em;
+}
+
+ul {
+    padding-left: 20px;
+    font-size: .9em;
+    line-height: 1.6;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 1.5em;
+}
+
+blockquote {
+    margin: 3em 0 1.5em 0;
+    line-height: 1.6;
+}
+
+blockquote,
+cite {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+footer {
+    padding: 2.5em 0 1em;
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 1.05em;
+    line-height: 1.6;
+}
+
+p > a {
+    color: rgb(104, 75, 104);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    main {
+        width: 75%;
+        min-width: 550px;
+    }
+}
+
+@media (min-width: 1025px) {
+    main {
+        width: 40%;
+        max-width: 800px;
+    }
+}
